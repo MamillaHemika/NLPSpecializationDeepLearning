@@ -36,3 +36,9 @@ Here’s a detailed discussion of the key points presented in the provided text 
 - **Final Classification**: With the trained model, you can classify any given tweet as either positive or negative based on the rules learned during the training phase. This is indicative of how supervised machine learning empowers predictive analytics in real-world situations.
 
 In conclusion, the text outlines the foundational concepts and steps involved in implementing a logistic regression classifier for sentiment analysis, emphasizing the importance of supervised machine learning, error minimization, and feature extraction processes. In the upcoming video, you will learn specifically about how to extract these essential features from the raw data in order to prepare for the training and prediction steps.
+
+![Image](https://github.com/user-attachments/assets/3cf97dec-b161-48f5-b54e-5691c2e398d7)
+
+![Image](https://github.com/user-attachments/assets/9daa1c5c-2566-48fb-bd61-78197fd8ac42)
+
+![Image](https://github.com/user-attachments/assets/e09330da-605d-4f9d-bd25-66b77685784d)
