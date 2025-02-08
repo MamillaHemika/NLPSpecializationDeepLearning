@@ -4,6 +4,20 @@
 
 <img width="267" alt="Image" src="https://github.com/user-attachments/assets/d3641fbc-ec59-4a42-8fa8-747c9401ee0d" />
 
+**Preprocessing**
+
+When preprocessing, you have to perform the following:
+
+1. Eliminate handles and URLs
+2. Tokenize the string into words.
+3. Remove stop words like "and, is, a, on, etc."
+4. Stemming- or convert every word to its stem. Like dancer, dancing, danced, becomes 'danc'. You can use porter stemmer to take care of this.
+5. Convert all your words to lower case.
+
+For example the following tweet "@YMourri and @AndrewYNg are tuning a GREAT AI model at <https://deeplearning.ai>!!!" after preprocessing becomes
+
+\[tun,great,ai,model\]\[_tun_,_great_,_ai_,_model_\]. Hence you can see how we eliminated handles tokenized it into words, removed stop words, performed stemming, and converted everything to lower case.
+
 **The first thing you'll learn about is called stemming and the second thing you will learn about is called stop words, and specifically you will learn how to use stemming and stop words to preprocess your texts.**  
 **Description**: This line introduces two key techniques in text preprocessing: stemming and stop words. Stemming reduces words to their base form, while stop words are common words that might not add significant meaning.  
 _Example_: In the phrase “running is fun,” stemming reduces “running” to “run,” while “is” would be considered a stop word.
