@@ -1,3 +1,9 @@
+<img width="712" alt="Image" src="https://github.com/user-attachments/assets/57705bb7-be53-449b-bd92-4829e8a17fac" />
+
+<img width="856" alt="Image" src="https://github.com/user-attachments/assets/903e364a-f27b-4600-9c78-85514073a48d" />
+
+<img width="267" alt="Image" src="https://github.com/user-attachments/assets/d3641fbc-ec59-4a42-8fa8-747c9401ee0d" />
+
 **The first thing you'll learn about is called stemming and the second thing you will learn about is called stop words, and specifically you will learn how to use stemming and stop words to preprocess your texts.**  
 **Description**: This line introduces two key techniques in text preprocessing: stemming and stop words. Stemming reduces words to their base form, while stop words are common words that might not add significant meaning.  
 _Example_: In the phrase “running is fun,” stemming reduces “running” to “run,” while “is” would be considered a stop word.
