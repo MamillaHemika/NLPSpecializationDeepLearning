@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/f1da9e18-c69e-4b4d-9dfa-ebd1cafab0c6)
+
 <img width="862" alt="Image" src="https://github.com/user-attachments/assets/720f3d5f-1e8b-4be6-a9d3-fd85a6cc66c9" />
 
 <img width="827" alt="Image" src="https://github.com/user-attachments/assets/0fdcc1e3-36df-4c7f-9bd8-8d6fee3dceaf" />
@@ -111,3 +113,15 @@ _Example_: Through this knowledge, you can now efficiently classify sentiments b
 **26\. In the next video, you will learn to pre-process your tweets and as a result, you will use those pre-processed words as words of your vocabulary.**  
 Lastly, the text sets the stage for the next lesson focusing on pre-processing tweets, which is essential for effective vocabulary formation.  
 _Example_: This may involve cleaning data or transforming tweets, ensuring better word frequency analysis.
+
+**Feature Extraction with Frequencies**
+
+Given a corpus with positive and negative tweets as follows:
+
+You have to encode each tweet as a vector. Previously, this vector was of dimension V_V_. Now, as you will see in the upcoming videos, you will represent it with a vector of dimension 33. To do so, you have to create a dictionary to map the word, and the class it appeared in (positive or negative) to the number of times that word appeared in its corresponding class.
+
+In the past two videos, we call this dictionary \`freqs\`. In the table above, you can see how words like happy and sad tend to take clear sides, while other words like "I, am" tend to be more neutral. Given this dictionary and the tweet, "I am sad, I am not learning NLP", you can create a vector corresponding to the feature as follows:
+
+To encode the negative feature, you can do the same thing.
+
+Hence you end up getting the following feature vector \[1,8,11\]\[1,8,11\]. 11 corresponds to the bias, 88 the positive feature, and 1111 the negative feature.
